@@ -1,7 +1,7 @@
 body{
    box-sizing: border-box;
    width: 95vw;
-   height: 100vh;
+   height: 70vh;
 }
 .bar{
   width:95vw;
@@ -53,7 +53,7 @@ inCover{
   border: 1px solid black;
   display: block;
   float: right;
-  margin-right: -31.5vw;
+  margin-right: -30vw;
   margin-top: 5vh;
 
 }
@@ -66,6 +66,7 @@ inCover{
 #track{
   opacity: .19;
   width: 45vw;
+  height: 90vh;
   float: right;
   z-index: 0;
 }
