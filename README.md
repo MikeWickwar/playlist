@@ -85,7 +85,7 @@ For example, if you just completed module 3, submit a pull request to https://gi
 
 * As a user, when I visit the home page, I see 3 random album covers vertically stacked according to the specs shown in the mockup.
 
-  * As a user, when I visit the playlist page, I see a div populated with all of the albums in the album list retrieved from the API. 
+  * As a user, when I visit the playlist page, I see a div populated with all of the albums in the album list retrieved from the API.
 
 ## Module 4: DOM Manipulation v2
 
