@@ -18,9 +18,6 @@ getter.done(function(response){
   for (var i = 0; i < 3; i++) {
     $("#placeImg").append("<img id='img"+[i]+"'class='albumC' src='images/"+getImgs(response)+"' alt='' />");
   }
-  // $("#placeImg").append("<img class='albumC' src='images/"+getImgs(response)+"' alt='' />");
-  // $("#placeImg").append("<img class='albumC' src='images/"+getImgs(response)+"' alt='' />");
-  // $("#placeImg").append("<img class='albumC' src='images/"+getImgs(response)+"' alt='' />");
 })
 pGetter.done(function(response){
   console.log(response);

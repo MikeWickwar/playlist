@@ -50,7 +50,6 @@ main{
 
 }
 inCover{
-  border: 1px solid black;
   display: block;
   float: right;
   margin-right: -30vw;
@@ -59,11 +58,11 @@ inCover{
 }
 .albumC{
   display: block;
-  margin: 10px;
+  margin: 3.5vh;
   margin-top: 15px;
   opacity: 2;
-  height: 80px;
-  width: 80px;
+  height: 170px;
+  width: 170px;
 }
 #track{
   opacity: .19;
