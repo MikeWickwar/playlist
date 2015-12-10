@@ -103,6 +103,7 @@ scrl{
 }
 .sBar{
   width:500vw;
+  margin-left: 7.5vh;
   overflow: auto;
   overflow-x: scroll;
   /*border: 1px solid black;*/
@@ -116,7 +117,7 @@ width: 70px;
 }
 #imgIcon0{
   margin-top: 1vh;
-  margin-left: 10vh;
+  margin-left: 13vw;
   height: 70px;
   width: 70px;
 }

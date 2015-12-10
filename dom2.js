@@ -27,21 +27,16 @@ pGetter.done(function(response){
   console.log(response);
   var a = response;
 })
-function appendTitle(r){
-  $('#tArea').append("<li>"+response.results[i].title+"</li>")
 
-}
 
 $(document).on('click','.sImg',function(response){
-  console.log("hello I am here ! ");
+  console.log("hello");
   var i = parseInt(this.id);
   console.log(i);
-  // postTitle(response,i);
   console.log(a);
   var acu = $('textarea').val();
   console.log(acu);
-  acu += $('textarea').val(a.results[i].title +" "+acu);
-  // $('#tArea').show();
+  acu += $('textarea').val(a.results[i].title +"\n"+acu);
   console.log(a.results[i].title);
 })
 
