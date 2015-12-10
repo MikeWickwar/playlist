@@ -1,6 +1,6 @@
 $(document).ready(function(){
   console.log("hello world");
-
+// getImgs();
 
 })
 
@@ -15,8 +15,9 @@ var pGetter = $.ajax({
 });
 getter.done(function(response){
   console.log(response);
-  for (var i = 0; i < 3; i++) {
-    $("#placeImg").append("<img id='img"+[i]+"'class='albumC' src='images/"+getRImgs(response)+"' alt='' />");
+  for (var i = 0; i < response.results.length; i++) {
+    console.log(getImgs(response, i));
+    $("photos").append("<img id='imgIcon"+[i]+"' class='sImg' src='images/"+getImgs(response, i)+"' alt='' />");
   }
 })
 pGetter.done(function(response){

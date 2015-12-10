@@ -1,14 +1,12 @@
-var btn1 = document.getElementById("cTBtn");
-
-btn1.addEventListener('click',function(){
-  window.location='index2.html';
-})
-
-function getImgs(response){
+function getRImgs(response){
   var r = response.results[ran()].cover_art;
   return r
 }
 function ran(){
   var ran= (Math.random()*4).toFixed();
   return ran;
+}
+function getImgs(response, i){
+  var r = response.results[i].cover_art;
+  return r
 }

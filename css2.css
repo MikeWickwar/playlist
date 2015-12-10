@@ -111,10 +111,14 @@ scrl{
 .sImg{
 margin-top:1vh;
 margin-left: 3vh;
+height: 70px;
+width: 70px;
 }
-.sImg1{
+#imgIcon0{
   margin-top: 1vh;
   margin-left: 10vh;
+  height: 70px;
+  width: 70px;
 }
 main2{
   display: block;
@@ -133,4 +137,7 @@ mvMain{
   float: left;
   display: block;
   border: 1px solid black;
+}
+photos{
+
 }
