@@ -10,8 +10,3 @@ function getImgs(response, i){
   var r = response.results[i].cover_art;
   return r
 }
-function postTitle(response, i){
-  var r = response.results[i].title;
-  console.log(r);
-  appendTitle(r)
-}
