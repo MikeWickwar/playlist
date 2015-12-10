@@ -15,12 +15,12 @@ var pGetter = $.ajax({
 });
 getter.done(function(response){
   console.log(response);
-  var a = response;
-  getImgs(response);
-  for (var i = 0; i < a.length; i++) {
-    $('img').attr('id',i);
-    a[i]
+  for (var i = 0; i < 3; i++) {
+    $("#placeImg").append("<img id='img"+[i]+"'class='albumC' src='images/"+getImgs(response)+"' alt='' />");
   }
+  // $("#placeImg").append("<img class='albumC' src='images/"+getImgs(response)+"' alt='' />");
+  // $("#placeImg").append("<img class='albumC' src='images/"+getImgs(response)+"' alt='' />");
+  // $("#placeImg").append("<img class='albumC' src='images/"+getImgs(response)+"' alt='' />");
 })
 pGetter.done(function(response){
   console.log(response);

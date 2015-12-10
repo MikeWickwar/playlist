@@ -62,6 +62,8 @@ inCover{
   margin: 10px;
   margin-top: 15px;
   opacity: 2;
+  height: 80px;
+  width: 80px;
 }
 #track{
   opacity: .19;

@@ -4,10 +4,12 @@ btn1.addEventListener('click',function(){
   window.location='index2.html';
 })
 
+// ran= (Math.random()*4).toFixed();
 function getImgs(response){
-  var ran= (Math.random()*5).toFixed();
-  // console.log(ran);
-  var r = response.results[ran].cover_art;
-  console.log(r);
-  
+  var r = response.results[ran()].cover_art;
+  return r
+}
+function ran(){
+  var ran= (Math.random()*4).toFixed();
+  return ran;
 }
